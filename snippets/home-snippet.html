@@ -1,0 +1,18 @@
+<div class="home">
+  <h1>Welcome to My Restaurant</h1>
+
+  <div class="tiles">
+    <div class="tile">
+      <a href="#" onclick="$dc.loadMenuItems('L');">Menu</a>
+    </div>
+
+    <div class="tile">
+      <!-- This is the Specials tile. The JS must replace {{randomCategoryShortName}} with a quoted short_name -->
+      <a href="#" onclick="$dc.loadMenuItems({{randomCategoryShortName}});">Specials</a>
+    </div>
+
+    <div class="tile">
+      <a href="#" onclick="$dc.loadMap();">Map</a>
+    </div>
+  </div>
+</div>
